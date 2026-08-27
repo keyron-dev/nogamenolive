@@ -183,7 +183,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '6'
   - '3'
   - LEFT SHIFT
   - {t: ▽, type: trans}
