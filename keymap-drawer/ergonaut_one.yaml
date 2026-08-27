@@ -167,7 +167,7 @@ layers:
   - ''
   - Reset
   - {type: held}
-  - ''
+  - {t: '4', h: toggle}
   - {type: held}
   - ''
   - {t: ▽, type: trans}
@@ -211,7 +211,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ␣
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '9'
+  - {t: MAIN, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
