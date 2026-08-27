@@ -21,17 +21,17 @@ jobs:
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('config/west.yml') }}
 
       - name: Initialize workspace (west)
-        uses: zmkfirmware/zmk-actions-toolkit/setup@v2
+        uses: zmkfirmware/zmk/actions/setup@main
 
       - name: Build Left Hand
-        uses: zmkfirmware/zmk-actions-toolkit/build@v2
+        uses: zmkfirmware/zmk/actions/build@main
         with:
           board: seeeduino_xiao_ble
           shield: ergonaut_one_left
           config_path: config
 
       - name: Build Right Hand
-        uses: zmkfirmware/zmk-actions-toolkit/build@v2
+        uses: zmkfirmware/zmk/actions/build@main
         with:
           board: seeeduino_xiao_ble
           shield: ergonaut_one_right
