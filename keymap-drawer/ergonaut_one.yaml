@@ -159,7 +159,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: '4', h: toggle}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
