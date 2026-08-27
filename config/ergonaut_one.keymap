@@ -66,9 +66,9 @@
 
         layer_4 {
             bindings = <
-&kp ESC         &trans  &trans  &trans   &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &trans  &trans  &trans   &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL       &trans  &trans  &trans   &trans     &to 0   &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC         &trans  &trans  &trans   &trans     &trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_3
+&kp LEFT_SHIFT  &trans  &trans  &trans   &trans     &trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_2
+&kp LCTRL       &trans  &trans  &trans   &trans     &to 0   &trans  &trans  &trans  &trans  &trans  &kp NUMBER_1
                                 &kp TAB  &kp SPACE  &kp N9  &to 0   &trans  &trans
             >;
         };
