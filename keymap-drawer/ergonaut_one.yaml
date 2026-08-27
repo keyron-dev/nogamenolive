@@ -195,7 +195,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '5'
   - '2'
   - Ctrl
   - {t: ▽, type: trans}
@@ -207,11 +207,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '4'
   - '1'
   - ↹
   - ␣
-  - '9'
+  - KP 9
   - {t: MAIN, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
